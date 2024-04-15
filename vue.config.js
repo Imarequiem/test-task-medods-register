@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   // eslint-disable-next-line prettier/prettier
   publicPath: process.env.NODE_ENV === "production"
-      ? "/medods-testTask-registerForm/"
+      ? "/test-task-medods-register/"
       : "/",
 });
